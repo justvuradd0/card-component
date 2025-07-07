@@ -2,15 +2,39 @@
   box-sizing: border-box;
 }
 article {
+  width: 920px;
+  height: 500px;
+  border-radius: 8px;
+  background: #E28625;
+  padding: 48px;
+  position: relative;
+  margin-block-start: 179px;
+  margin-inline: auto;
+}
+
+.card2 {
   width: 307px;
   height: 500px;
   background: #006971;
   padding: 48px;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%);
 }
-/* img {
-  margin-bottom: 35px;
-} */
-div {
+.card3 {
+  width: 307px;
+  height: 500px;
+  border-radius: 0 8px 8px 0;
+  background: #004140;
+  padding: 48px;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+ 
+}
+
+.img {
   width: 40px;
   height: 40px;
   position: relative;
@@ -44,6 +68,8 @@ p {
   color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.75;
+  width: 212px;
+  height: 125px;
 }
 a {
   text-decoration: none;
